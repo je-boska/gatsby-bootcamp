@@ -8,7 +8,11 @@ const Contact = () => {
       <p>je-boska@example.com</p>
       <p>
         Instagram:{" "}
-        <a href="http://instagram.com/joneirikboska" target="_blank">
+        <a
+          href="http://instagram.com/joneirikboska"
+          rel="noreferrer"
+          target="_blank"
+        >
           @joneirikboska
         </a>{" "}
       </p>
