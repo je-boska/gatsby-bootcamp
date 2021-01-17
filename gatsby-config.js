@@ -5,6 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "JAM-Stack Bootcamp",
+    author: "JE Boska",
+    description: "Learning Gatsby by making a tutorial project",
+  },
   plugins: [`gatsby-plugin-sass`],
 }
