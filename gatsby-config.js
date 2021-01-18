@@ -10,5 +10,15 @@ module.exports = {
     author: "JE Boska",
     description: "Learning Gatsby by making a tutorial project",
   },
-  plugins: [`gatsby-plugin-sass`],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+    "gatsby-transformer-remark",
+  ],
 }
