@@ -6,6 +6,8 @@ id: 1
 
 I just followed a new tutorial.
 
+![Rain on a window](./rainonwindow.jpg)
+
 ## Topics Covered
 
 1. Gatsby
