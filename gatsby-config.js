@@ -11,6 +11,7 @@ module.exports = {
     description: "Learning Gatsby by making a tutorial project",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {

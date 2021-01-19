@@ -4,6 +4,7 @@ import Img from "gatsby-image"
 import Layout from "../components/Layout"
 import { renderRichText } from "gatsby-source-contentful/rich-text"
 import { BLOCKS } from "@contentful/rich-text-types"
+import Head from "../components/head"
 
 export const query = graphql`
   query($slug: String!) {
@@ -39,6 +40,7 @@ const Blog = ({ data: { contentfulBlogPost: post } }) => {
   }
   return (
     <Layout>
+      <Head page={post.title} />
       <h1>{post.title}</h1>
       <p>{post.publishedDate}</p>
       {renderRichText(post.body, options)}

@@ -1,9 +1,11 @@
 import React from "react"
+import Head from "../components/head"
 import Layout from "../components/Layout"
 
 const Contact = () => {
   return (
     <Layout>
+      <Head page="Contact" />
       <h1>Contact Me</h1>
       <p>je-boska@example.com</p>
       <p>
